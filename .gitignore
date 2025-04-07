@@ -50,3 +50,13 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# Ignore Keil specific files
+*.uvguix.*
+*.uvoptx
+*.uvprojx
+
+#Ignore Keil specific folders
+Compilations
+DebugConfig
+RTE
